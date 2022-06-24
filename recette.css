@@ -1,0 +1,131 @@
+*{
+    overflow: auto;
+}
+body{
+    background-color: rgb(182, 151, 111);
+    font-family: Arial;
+    margin: 0;
+}
+p.Entrada{ 
+    background-color: #855647;
+    color: white; 
+    display: inline-block;
+    margin-top: -15px;
+    padding:  6px 8px ;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+div.Entrada{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    overflow: visible;
+}
+div.contenido{
+    background-color: white;
+    margin: 60px 10% 80px  10%;
+    padding: 0px 30px 3% 30px;
+    min-width: 350px;
+    box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.2);
+    overflow: visible;
+}
+h1{
+    text-align: center;
+    margin-bottom: 12px;
+    margin-top: 14px;
+}
+p.descripcion{
+    text-align: center;
+    max-width: 500px;
+    display: inline-block;
+    font-size: 15px;
+}
+.center{
+    text-align: center;
+    width: 100%;
+}
+div.separador{
+    background-color: grey;
+    width: 200px;
+    height: 1px;
+    margin-left: auto;
+    margin-right: auto;   
+}
+div.info{
+    position: relative;
+}
+table.info{ 
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    background-color: #c5a482C0;
+    height: 65px;
+}
+table.info td{
+    text-align: center;
+    font-size: 14px;
+    vertical-align: top;
+}
+table.info th{
+    vertical-align: bottom;
+    font-size: 17px;
+}
+img.info{
+    display: block;
+    object-fit: cover;
+    max-height: 100%;
+    min-height: 100%;
+    background-color: grey;
+}
+div.columnassomos h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    border-bottom: 3px solid grey;
+    padding-bottom: 5px;
+}
+div.columnassomos{
+    width: 45%;
+    margin-top: 20px;
+}
+div.columna1{
+    display: inline-block;
+    margin-right: 10%;
+}
+div.columna2{
+    float: right;
+}
+div.materiales p{
+    text-align: center;
+    font: 14px;
+    border: 1px solid lightgray;
+    padding: 8.5px 0;
+    margin-top: 4px;
+    margin-bottom: 1px;
+}
+table.preparación p.numero{
+    background-color: #c5a482;
+    color: white;
+    text-align: center;
+    height: 25px;
+    width: 25px;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 5px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin: 0;
+}
+table.preparación td{
+    vertical-align: top;
+}
+table.preparación td.ajustasao{
+    font-size: 14px;
+    padding-left: 12px;
+    padding-bottom: 12px;
+}
+table.preparación tr{
+    height: 40px;
+}
